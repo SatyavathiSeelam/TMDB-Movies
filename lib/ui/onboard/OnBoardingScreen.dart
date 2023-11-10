@@ -40,7 +40,7 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
                 if (index < 2) {
                   this.index++;
                 }else{
-                  print("Next screen");
+                Navigator.pushNamed(context, "/auth_page");
                 }
               });
             } )
